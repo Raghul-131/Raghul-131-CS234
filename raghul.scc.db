@@ -1,0 +1,9 @@
+-- Run this in SQLite or Python script
+CREATE TABLE evaluation (
+    student_id INTEGER PRIMARY KEY,
+    cgpa REAL,
+    status TEXT
+);
+
+INSERT INTO evaluation (student_id, cgpa, status)
+VALUES (1, 7.2, 'Pending');
